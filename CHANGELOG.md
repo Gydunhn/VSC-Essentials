@@ -7,10 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - ## [Unreleased]
 
+- ## [0.0.2] - 2020-04-25
+### Fixed
+* Changelog repository url's
+### Added
+* Keywords Added
+
 - ## [0.0.1] - 2020-04-25
 ### Added
 * Initial release
   * Created extension pack
 
-[Unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v1.0.0...HEAD
-[0.0.1]: https://github.com/olivierlacan/keep-a-changelog/releases/tag/v0.0.1
+[Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[0.0.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.0.2
+[0.0.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.0.1
