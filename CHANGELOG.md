@@ -6,18 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - ## [Unreleased]
-  
-<!-- - ## [0.0.3] - 2020-04-25
-### Added
-* Keywords added & reordered -->
 
-- ## [0.0.2] - 2020-04-25
+<!-- ## [0.0.3] - 2020-04-25
+### Added
+* Keywords added & reordered
+* Changelog fixed, in order to keep the format. -->
+
+## [0.0.2] - 2020-04-25
 ### Fixed
 * Changelog repository url's
 ### Added
 * Keywords added
 
-- ## [0.0.1] - 2020-04-25
+## [0.0.1] - 2020-04-25
 ### Added
 * Initial release
   * Created extension pack
