@@ -16,6 +16,8 @@
         "VSC",
         "VSCode",
         "Visual Studio",
+        "VSC Essentials",
+        "Essentials",
         "Git",
         "GitLens",
         "Git History",
@@ -39,12 +41,11 @@
         "Markdown",
         "Markdown All in One",
         "Terminal",
-        "Essentials",
         "Gydunhn",
         "TeamElite",
         "Team Elite"
     ],
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.44.0"
