@@ -44,7 +44,7 @@
         "TeamElite",
         "Team Elite"
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.44.0"
