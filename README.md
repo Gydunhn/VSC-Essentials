@@ -4,7 +4,7 @@
 This extension pack for Visual Studio Code adds extensions that are useful for any development. I reserve the right to update the extensions pack contents up to my own discretion.
 
 ## Reasons
-The VSC Essentials extension pack was made to automate and standardize the installation phase of the essential extensions for Visual Studio Code every time a new member joins the team, or one of them restores a laptop, or exchanges it for a new one.
+The [VSC Essentials extension pack] was made to automate and standardize the installation phase of the essential extensions for Visual Studio Code every time a new member joins the team, or one of them restores a laptop, or exchanges it for a new one.
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes
 
@@ -32,5 +32,6 @@ This extension pack includes the following extensions:
 | Markdown All in One        | [![Badge for version for Visual Studio Code extension](https://vsmarketplacebadge.apphb.com/version-short/yzhang.markdown-all-in-one.svg?color=blue&style=?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/yzhang.markdown-all-in-one.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/yzhang.markdown-all-in-one.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)                                                                                                 |
 | Terminal                   | [![Badge for version for Visual Studio Code extension](https://vsmarketplacebadge.apphb.com/version-short/formulahendry.terminal.svg?color=blue&style=?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/formulahendry.terminal.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/formulahendry.terminal.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)                                                                                                                         |
 
+[VSC Essentials extension pack]: https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials
 [Sanik Bajracharya]: https://medium.com/@sanik.bajracharya
 [article]: https://medium.com/@sanik.bajracharya/vscode-how-to-create-your-own-extension-pack-483385644c29
