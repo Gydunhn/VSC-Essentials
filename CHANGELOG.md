@@ -7,10 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - ## [Unreleased]
 
-<!-- ## [0.1.0] - 2020-04-27
+## [0.1.0] - 2020-04-27
 ### Added
 * Polacode Extension.
-* Git Graph. -->
+* Git Graph.
 
 ## [0.0.3] - 2020-04-25
 ### Added
