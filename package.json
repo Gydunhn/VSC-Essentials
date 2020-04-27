@@ -41,6 +41,8 @@
         "Markdown",
         "Markdown All in One",
         "Terminal",
+        "Polacode",
+        "Git Graph",
         "Gydunhn",
         "TeamElite",
         "Team Elite"
@@ -67,6 +69,8 @@
         "christian-kohler.path-intellisense",
         "tombonnike.vscode-status-bar-format-toggle",
         "yzhang.markdown-all-in-one",
-        "formulahendry.terminal"
+        "formulahendry.terminal",
+        "pnp.polacode",
+        "mhutchie.git-graph"
     ]
 }
