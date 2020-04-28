@@ -71,6 +71,7 @@
         "yzhang.markdown-all-in-one",
         "formulahendry.terminal",
         "pnp.polacode",
-        "mhutchie.git-graph"
+        "mhutchie.git-graph",
+        "DavidAnson.vscode-markdownlint"
     ]
 }
