@@ -72,6 +72,7 @@
         "formulahendry.terminal",
         "pnp.polacode",
         "mhutchie.git-graph",
-        "DavidAnson.vscode-markdownlint"
+        "DavidAnson.vscode-markdownlint",
+        "DotJoshJohnson.xml"
     ]
 }
