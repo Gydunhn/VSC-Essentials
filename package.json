@@ -47,7 +47,7 @@
         "TeamElite",
         "Team Elite"
     ],
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.44.0"
@@ -72,6 +72,7 @@
         "formulahendry.terminal",
         "pnp.polacode",
         "mhutchie.git-graph",
-        "DavidAnson.vscode-markdownlint"
+        "DavidAnson.vscode-markdownlint",
+        "DotJoshJohnson.xml"
     ]
 }
