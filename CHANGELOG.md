@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Compatibility with vsCode 1.35.0
+* Compatibility with vsCode 1.35.0 x32
 
 ## [0.3.1] - 2020-08-28
 
