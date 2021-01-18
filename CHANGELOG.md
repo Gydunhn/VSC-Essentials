@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2021-01-18
+
+### Changed
+
+* Updated "TODO Highlight" to point to its successor, More information can be found in [Issue #187 on the outdated repository](wayou/vscode-todo-highlight#187) and [Issue #16 on the successor repository](jgclark/vscode-todo-highlight#16).
+
 ## [0.3.2] - 2020-10-06
 
 ### Changed
@@ -64,6 +70,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[0.4.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.4.0
 [0.3.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.3.2
 [0.3.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.3.1
 [0.3.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.3.0
