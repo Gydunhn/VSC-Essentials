@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0] - 2021-04-07
+
+### Removed
+
+* Polacode. Polacode doesn't work after VSCode 1.47 (#octref/polacode#143).
+* ### Added
+
+* CodeSnap.
+
 ## [0.4.0] - 2021-01-18
 
 ### Changed
