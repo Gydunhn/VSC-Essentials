@@ -44,7 +44,7 @@
         "Gydunhn",
         "Elite"
     ],
-    "version": "0.5.0",
+    "version": "0.5.1",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
