@@ -1,0 +1,11 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "workbench.tree.indent": 6,
+    "scss.lint.important": "warning",
+    "scss.lint.importStatement": "warning",
+}

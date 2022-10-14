@@ -7,11 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.2] - 2022-10-14
+
+* ### Added
+
+* Terminal in Status Bar, as a (kind of) temporary replacement for Terminal by Jun Han.
+* Better Comments, Improve your code commenting by annotating with alert, informational, TODOs, and more!
+
+### Removed
+
+* Terminal by Jun Han, is no longer being maintained (#formulahendry/vscode-terminal).
+
 ## [0.5.1] - 2022-03-28
 
 ### Removed
 
-* Bracket Pair Colorizer. PolaBracket Pair Colorizer 2 is no longer being maintained (#CoenraadS/Bracket-Pair-Colorizer-2#475).
+* Bracket Pair Colorizer. Bracket Pair Colorizer 2 is no longer being maintained (#CoenraadS/Bracket-Pair-Colorizer-2#475). and is Officialy integrated to VSC.
 
 ## [0.5.0] - 2021-04-07
 
@@ -86,6 +97,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[0.5.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.2
 [0.5.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.1
 [0.5.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.0
 [0.4.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.4.0
