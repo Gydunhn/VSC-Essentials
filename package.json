@@ -39,12 +39,13 @@
         "Markdown",
         "Markdown All in One",
         "Terminal",
+        "Status Bar",
         "CodeSnap",
         "Git Graph",
         "Gydunhn",
         "Elite"
     ],
-    "version": "0.5.1",
+    "version": "0.5.2",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
@@ -65,10 +66,11 @@
         "christian-kohler.path-intellisense",
         "tombonnike.vscode-status-bar-format-toggle",
         "yzhang.markdown-all-in-one",
-        "formulahendry.terminal",
+        "flyfly6.terminal-in-status-bar",
         "adpyke.codesnap",
         "mhutchie.git-graph",
         "DavidAnson.vscode-markdownlint",
-        "DotJoshJohnson.xml"
+        "DotJoshJohnson.xml",
+        "aaron-bond.better-comments"
     ]
 }
