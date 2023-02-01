@@ -86,6 +86,8 @@
         "DavidAnson.vscode-markdownlint",
         "DotJoshJohnson.xml",
         "aaron-bond.better-comments",
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+        "formulahendry.code-runner",
+        "streetsidesoftware.code-spell-checker"
     ]
 }

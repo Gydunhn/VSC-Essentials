@@ -7,11 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.4] - 2023-02-01
+
+### Added
+
+* Code Runner, Run code snippet or code file for multiple languages. This extension is added as a complement to 'Terminal in Status Bar', as together they generate a complete replacement to Jun Han's deprecated Terminal extension.
+* Code Spell Checker, A basic spell checker that works well with code and documents.
+
 ## [0.5.3] - 2023-01-31
 
 ### Added
 
-* Rainbow CSV, Highlight columns in comma (.csv), tab (.tsv), semicolon and pipe - separated files in different colors..
+* Rainbow CSV, Highlight columns in comma (.csv), tab (.tsv), semicolon and pipe - separated files in different colors.
 
 ### Changed
 
@@ -107,6 +114,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[0.5.4]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.4
 [0.5.3]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.3
 [0.5.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.2
 [0.5.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.1
