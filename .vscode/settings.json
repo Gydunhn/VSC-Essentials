@@ -1,11 +1,33 @@
 {
     "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs":"active",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "prettier.useTabs": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.indentation": true,
+    "editor.tabCompletion": "on",
+    "editor.rulers": [
+        80
+    ],
+    "workbench.tree.expandMode": "singleClick",
+    "workbench.tree.renderIndentGuides": "always",
     "workbench.tree.indent": 6,
+    "workbench.iconTheme": "material-icon-theme",
     "scss.lint.important": "warning",
     "scss.lint.importStatement": "warning",
+    "gitlens.blame.avatars": true,
+    "gitlens.views.repositories.avatars": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "vscode.markdown-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
