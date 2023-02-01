@@ -16,8 +16,19 @@
         "VSC",
         "VSCode",
         "Visual Studio",
+        "Visual Studio Code",
         "VSC Essentials",
         "Essentials",
+        "Esenciales",
+        "Essenciais",
+        "Essentiel",
+        "Essenziali",
+        "Essentielles",
+        "Esencajoj",
+        "必需品",
+        "골자",
+        "अत्यावश्यकम्",
+        "ملزومات",
         "Git",
         "GitLens",
         "Git History",
@@ -42,10 +53,13 @@
         "Status Bar",
         "CodeSnap",
         "Git Graph",
+        "CSV",
+        "Rainbow",
+        "Rainbow CSV",
         "Gydunhn",
         "Elite"
     ],
-    "version": "0.5.2",
+    "version": "0.5.3",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
@@ -71,6 +85,7 @@
         "mhutchie.git-graph",
         "DavidAnson.vscode-markdownlint",
         "DotJoshJohnson.xml",
-        "aaron-bond.better-comments"
+        "aaron-bond.better-comments",
+        "mechatroner.rainbow-csv"
     ]
 }
