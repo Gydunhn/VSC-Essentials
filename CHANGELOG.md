@@ -7,9 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.3] - 2023-01-31
+
+### Added
+
+* Rainbow CSV, Highlight columns in comma (.csv), tab (.tsv), semicolon and pipe - separated files in different colors..
+
+### Changed
+
+* ReadMe Badges
+
 ## [0.5.2] - 2022-10-14
 
-* ### Added
+### Added
 
 * Terminal in Status Bar, as a (kind of) temporary replacement for Terminal by Jun Han.
 * Better Comments, Improve your code commenting by annotating with alert, informational, TODOs, and more!
@@ -26,11 +36,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.5.0] - 2021-04-07
 
-### Removed
+### Removed  
 
 * Polacode. Polacode doesn't work after VSCode 1.47 (#octref/polacode#143).
 
-* ### Added
+### Added  
 
 * CodeSnap.
 
@@ -97,6 +107,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[0.5.3]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.3
 [0.5.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.2
 [0.5.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.1
 [0.5.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.0
