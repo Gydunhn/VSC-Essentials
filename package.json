@@ -1,7 +1,7 @@
 {
     "name": "vsc-essentials",
     "displayName": "VSC-Essentials",
-    "description": "Essential extensions for visual studio code",
+    "description": "Language agnostic, The Essential extensions for visual studio code",
     "icon": "img/essentials.png",
     "galleryBanner": {
         "color": "#53595e",
