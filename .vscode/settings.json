@@ -1,81 +1,67 @@
 {
-	"editor.bracketPairColorization.enabled": true,
-	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.guides.bracketPairs": "active",
-	"editor.guides.indentation": true,
-	"editor.tabCompletion": "on",
-	"editor.rulers": [
-		80
-	],
-	"workbench.tree.expandMode": "singleClick",
-	"workbench.tree.renderIndentGuides": "always",
-	"workbench.tree.indent": 6,
-	"workbench.iconTheme": "material-icon-theme",
-	"scss.lint.important": "warning",
-	"scss.lint.importStatement": "warning",
-	"editor.formatOnType": false,
-	"editor.formatOnSave": false,
-	"editor.formatOnPaste": false,
-	"formattingToggle.affects": [
-		"editor.formatOnPaste",
-		"editor.formatOnSave",
-		"editor.formatOnType"
-	],
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "vscode.css-language-features"
-	},
-	"[markdown]": {
-		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"[xml]": {
-		"editor.defaultFormatter": "DotJoshJohnson.xml"
-	},
-	"typescript.format.semicolons": "insert",
-	"typescript.suggest.paths": false,
-	"javascript.suggest.paths": false,
-	"gitlens.blame.avatars": true,
-	"gitlens.views.repositories.avatars": true,
-	"gitlens.codeLens.authors.enabled": true,
-	"markdownlint.config": {
-		"default": true,
-		"MD001": false,
-		"MD010": false,
-		"MD024": false,
-		"MD025": false
-	},
-	"todo-tree.highlights.customHighlight": {
-		"TODO": {
-			"gutterIcon": true,
-			"icon": "checklist",
-			"iconColour": "DarkOrange",
-			"type": "tag",
-			"background": "DarkOrange",
-			"foreground": "white",
-			"fontWeight": "bold"
-		},
-		"FIXME": {
-			"gutterIcon": true,
-			"icon": "tools",
-			"iconColour": "Lime",
-			"type": "tag",
-			"background": "Green",
-			"foreground": "Yellow",
-			"fontWeight": "bold"
-		}
-	},
-	"emojisense.languages": {
-		"markdown": true,
-		"plaintext": false,
-		"json": true,
-		"scminput": true
-	}
+    // VSCode Config
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.indentation": true,
+    "editor.tabCompletion": "on",
+    "editor.showDeprecated": true,
+    "editor.rulers": [
+        80
+    ],
+    "workbench.tree.expandMode": "singleClick",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 6,
+    "workbench.iconTheme": "material-icon-theme",
+    // Extensions Config
+    "gitlens.blame.avatars": true,
+    "gitlens.views.repositories.avatars": true,
+    "gitlens.codeLens.authors.enabled": true,
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "gutterIcon": true,
+            "icon": "checklist",
+            "iconColour": "DarkOrange",
+            "type": "tag",
+            "background": "DarkOrange",
+            "foreground": "white",
+            "fontWeight": "bold"
+        },
+        "FIXME": {
+            "gutterIcon": true,
+            "icon": "tools",
+            "iconColour": "Lime",
+            "type": "tag",
+            "background": "Green",
+            "foreground": "Yellow",
+            "fontWeight": "bold"
+        }
+    },
+    "emojisense.languages": {
+        "markdown": true,
+        "plaintext": false,
+        "json": true,
+        "scminput": true
+    },
+    "formattingToggle.affects": [
+        "editor.formatOnPaste",
+        "editor.formatOnSave",
+        "editor.formatOnType"
+    ],
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "markdownlint.config": {
+        "default": true,
+        "MD001": false,
+        "MD010": false,
+        "MD024": false,
+        "MD025": false
+    },
 }
