@@ -1,7 +1,7 @@
 {
     "name": "vsc-essentials",
     "displayName": "VSC-Essentials",
-    "description": "Essential extensions for visual studio code",
+    "description": "Language agnostic, The Essential extensions for visual studio code",
     "icon": "img/essentials.png",
     "galleryBanner": {
         "color": "#53595e",
@@ -61,7 +61,7 @@
         "Gydunhn",
         "Elite"
     ],
-    "version": "0.5.5",
+    "version": "0.5.6",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
