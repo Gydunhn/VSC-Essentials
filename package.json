@@ -33,7 +33,7 @@
         "GitLens",
         "Git History",
         "TODO",
-        "TODO Highlight",
+        "Highlight",
         "Todo Tree",
         "Color Highlight",
         "indent",
@@ -56,6 +56,8 @@
         "CSV",
         "Rainbow",
         "Rainbow CSV",
+        "Emoji",
+        "Emojisense",
         "Gydunhn",
         "Elite"
     ],
@@ -71,7 +73,6 @@
         "eamodio.gitlens",
         "donjayamanne.githistory",
         "codezombiech.gitignore",
-        "jgclark.vscode-todo-highlight",
         "Gruntfuggly.todo-tree",
         "naumovs.color-highlight",
         "oderwat.indent-rainbow",
@@ -87,7 +88,6 @@
         "DotJoshJohnson.xml",
         "aaron-bond.better-comments",
         "mechatroner.rainbow-csv",
-        "formulahendry.code-runner",
-        "streetsidesoftware.code-spell-checker"
+        "bierner.emojisense"
     ]
 }

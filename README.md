@@ -10,6 +10,93 @@ The [VSC Essentials extension pack] was made to automate and standardize the ins
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes
 
+## **settings.json**
+
+It is strongly recommended that these settings be used in your workspace. You must copy and paste them, and if you need to adjust something you will already know where to do it.
+
+``` json
+{
+	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.indentation": true,
+	"editor.tabCompletion": "on",
+	"editor.rulers": [
+		80
+	],
+	"workbench.tree.expandMode": "singleClick",
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.tree.indent": 6,
+	"workbench.iconTheme": "material-icon-theme",
+	"scss.lint.important": "warning",
+	"scss.lint.importStatement": "warning",
+	"editor.formatOnType": false,
+	"editor.formatOnSave": false,
+	"editor.formatOnPaste": false,
+	"formattingToggle.affects": [
+		"editor.formatOnPaste",
+		"editor.formatOnSave",
+		"editor.formatOnType"
+	],
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
+	"typescript.format.semicolons": "insert",
+	"typescript.suggest.paths": false,
+	"javascript.suggest.paths": false,
+	"gitlens.blame.avatars": true,
+	"gitlens.views.repositories.avatars": true,
+	"gitlens.codeLens.authors.enabled": true,
+	"markdownlint.config": {
+		"default": true,
+		"MD001": false,
+		"MD024": false,
+		"MD025": false
+	},
+	"todo-tree.highlights.customHighlight": {
+		"TODO": {
+			"gutterIcon": true,
+			"icon": "checklist",
+			"iconColour": "DarkOrange",
+			"type": "tag",
+			"background": "DarkOrange",
+			"foreground": "white",
+			"fontWeight": "bold"
+		},
+		"FIXME": {
+			"gutterIcon": true,
+			"icon": "tools",
+			"iconColour": "Lime",
+			"type": "tag",
+			"background": "Green",
+			"foreground": "Yellow",
+			"fontWeight": "bold"
+		}
+	},
+	"emojisense.languages": {
+		"markdown": true,
+		"plaintext": false,
+		"json": true,
+		"scminput": true
+	}
+}
+```
+
 ## Note
 
 This extension pack was made possible by this [article] by [Sanik Bajracharya] on Medium.
@@ -23,7 +110,6 @@ This extension pack includes the following extensions:
 | GitLens — Git supercharged | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/eamodio.gitlens?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) [![Installs](https://flat.badgen.net/vs-marketplace/i/eamodio.gitlens?color=blue)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) [![Rating](https://flat.badgen.net/vs-marketplace/rating/eamodio.gitlens?color=blue)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)                                                                                                                                                                   |
 | Git History                | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/donjayamanne.githistory?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) [![Installs](https://flat.badgen.net/vs-marketplace/i/donjayamanne.githistory?color=blue)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) [![Rating](https://flat.badgen.net/vs-marketplace/rating/donjayamanne.githistory?color=blue)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)                                                                                                                   |
 | gitignore                  | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/codezombiech.gitignore?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) [![Installs](https://flat.badgen.net/vs-marketplace/i/codezombiech.gitignore?color=blue)](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) [![Rating](https://flat.badgen.net/vs-marketplace/rating/codezombiech.gitignore?color=blue)](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)                                                                                                                         |
-| TODO Highlight             | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/jgclark.vscode-todo-highlight?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highlight) [![Installs](https://flat.badgen.net/vs-marketplace/i/jgclark.vscode-todo-highlight?color=blue)](https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highlight) [![Rating](https://flat.badgen.net/vs-marketplace/rating/jgclark.vscode-todo-highlight?color=blue)](https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highlight)                                                                               |
 | Todo Tree                  | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Gruntfuggly.todo-tree?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) [![Installs](https://flat.badgen.net/vs-marketplace/i/Gruntfuggly.todo-tree?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Gruntfuggly.todo-tree?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                                                                                                                               |
 | Color Highlight            | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/naumovs.color-highlight?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) [![Installs](https://flat.badgen.net/vs-marketplace/i/naumovs.color-highlight?color=blue)](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) [![Rating](https://flat.badgen.net/vs-marketplace/rating/naumovs.color-highlight?color=blue)](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)                                                                                                                   |  |
 | indent-rainbow             | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/oderwat.indent-rainbow?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) [![Installs](https://flat.badgen.net/vs-marketplace/i/oderwat.indent-rainbow?color=blue)](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) [![Rating](https://flat.badgen.net/vs-marketplace/rating/oderwat.indent-rainbow?color=blue)](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)                                                                                                                         |
@@ -39,8 +125,7 @@ This extension pack includes the following extensions:
 | XML Tools                  | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/DotJoshJohnson.xml?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) [![Installs](https://flat.badgen.net/vs-marketplace/i/DotJoshJohnson.xml?color=blue)](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) [![Rating](https://flat.badgen.net/vs-marketplace/rating/DotJoshJohnson.xml?color=blue)](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)                                                                                                                                                 |
 | Better Comments            | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/aaron-bond.better-comments?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) [![Installs](https://flat.badgen.net/vs-marketplace/i/aaron-bond.better-comments?color=blue)](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) [![Rating](https://flat.badgen.net/vs-marketplace/rating/aaron-bond.better-comments?color=blue)](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)                                                                                                 |
 | Rainbow CSV                | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/mechatroner.rainbow-csv?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) [![Installs](https://flat.badgen.net/vs-marketplace/i/mechatroner.rainbow-csv?color=blue)](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) [![Rating](https://flat.badgen.net/vs-marketplace/rating/mechatroner.rainbow-csv?color=blue)](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)                                                                                                                   |
-| Code Runner                | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/formulahendry.code-runner?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) [![Installs](https://flat.badgen.net/vs-marketplace/i/formulahendry.code-runner?color=blue)](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) [![Rating](https://flat.badgen.net/vs-marketplace/rating/formulahendry.code-runner?color=blue)](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)                                                                                                       |
-| Code Spell Checker         | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/streetsidesoftware.code-spell-checker?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) [![Installs](https://flat.badgen.net/vs-marketplace/i/streetsidesoftware.code-spell-checker?color=blue)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) [![Rating](https://flat.badgen.net/vs-marketplace/rating/streetsidesoftware.code-spell-checker?color=blue)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)                               |
+| :emojisense:               | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/bierner.emojisense?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense) [![Installs](https://flat.badgen.net/vs-marketplace/i/bierner.emojisense?color=blue)](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense) [![Rating](https://flat.badgen.net/vs-marketplace/rating/bierner.emojisense?color=blue)](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)                                                                                                                                                 |
 
 [vsc essentials extension pack]: https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials
 [sanik bajracharya]: https://medium.com/@sanik.bajracharya

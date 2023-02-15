@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+* :emojisense:, At the request of some developers, so that the rest of the team learns to use it.
+
+### Removed
+
+* Code Spell Checker, due to the invasiveness of the extension, many developers from our team, in different cells, complained about it, so it will be returned to its previous status of recommended and optional and not mandatory.
+* Code Runner, due to an incompatibility problem in a layer of the stack, so it will be returned to its previous status of recommended and optional and not mandatory.
+* TODO Highlight v2, due to its little use. additionally Todo Tree brings us the same functionalities.
+
 ## [0.5.4] - 2023-02-01
 
 ### Added
