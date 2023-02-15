@@ -65,6 +65,7 @@ It is strongly recommended that these settings be used in your workspace. You mu
 	"markdownlint.config": {
 		"default": true,
 		"MD001": false,
+		"MD010": false,
 		"MD024": false,
 		"MD025": false
 	},
