@@ -29,9 +29,7 @@ It is strongly recommended that these settings be used in your workspace. You mu
     "workbench.tree.expandMode": "singleClick",
     "workbench.tree.renderIndentGuides": "always",
     "workbench.tree.indent": 6,
-    "editor.formatOnType": false,
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
