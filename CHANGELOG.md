@@ -5,17 +5,21 @@ All notable changes to the VSC Essentials - Extension Pack for Visual Studio Cod
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [Unreleased] ## [0.5.7] - 2023-02-18
 
 ### Added
 
 * SVG Previewer, By Vitalii Mazurenko.
+* A Hidden Special Edition of this extension. 🙊
 
 ### Changed
 
 * Reorder the Extensions List, in order to restructure the extensions package in the future.
 * The Readme is reordered too, with the same purpose as before.
 * The settings in the settings.json file are updated.
+
+## ~~0.5.6 - Got lost in Space~~
+~~To boldly go where no man has gone before ✨ 🚀 ☄️~~
 
 ## [0.5.5] - 2023-02-15
 

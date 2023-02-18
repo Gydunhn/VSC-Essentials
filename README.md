@@ -20,7 +20,8 @@ It is strongly recommended that these settings be used in your workspace. You mu
 
 ## Note
 
-This extension pack was made possible by this [article] by [Sanik Bajracharya] on Medium.
+This extension pack was made possible by this [article] by [Sanik Bajracharya] on Medium.  
+[This extension] can be found at [open-vsx.org] as well.
 
 ## Included
 
@@ -52,3 +53,5 @@ This extension pack includes the following extensions:
 [vsc essentials extension pack]: https://marketplace.visualstudio.com/items?itemName=Gydunhn.vsc-essentials
 [sanik bajracharya]: https://medium.com/@sanik.bajracharya
 [article]: https://medium.com/@sanik.bajracharya/vscode-how-to-create-your-own-extension-pack-483385644c29
+[This extension]: https://open-vsx.org/extension/Gydunhn/vsc-essentials
+[open-vsx.org]: https://open-vsx.org/
