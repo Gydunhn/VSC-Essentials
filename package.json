@@ -1,10 +1,10 @@
 {
     "name": "vsc-essentials",
     "displayName": "VSC-Essentials",
-    "description": "Language agnostic, The Essential extensions for visual studio code",
+    "description": "The Essential extensions for AFP PLV Devs",
     "icon": "img/essentials.png",
     "galleryBanner": {
-        "color": "#53595e",
+        "color": "#b42d27",
         "theme": "dark"
     },
     "license": "LICENSE.md",
@@ -63,7 +63,8 @@
         "Comments",
         "Better Comments",
         "Emojisense",
-        "Gydunhn"
+        "Gydunhn",
+        "AFP"
     ],
     "version": "0.5.6",
     "publisher": "Gydunhn",
@@ -91,8 +92,6 @@
         "codezombiech.gitignore",
         "PKief.material-icon-theme",
         "adpyke.codesnap",
-        "bierner.emojisense",
-        "christian-kohler.path-intellisense",
-        "tombonnike.vscode-status-bar-format-toggle"
+        "bierner.emojisense"
     ]
 }
