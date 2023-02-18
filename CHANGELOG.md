@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+* SVG Previewer, By Vitalii Mazurenko.
+
+### Changed
+
+* Reorder the Extensions List, in order to restructure the extensions package in the future.
+* The Readme is reordered too, with the same purpose as before.
+* The settings in the settings.json file are updated.
+
 ## [0.5.5] - 2023-02-15
 
 ### Added

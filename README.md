@@ -15,73 +15,7 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes
 It is strongly recommended that these settings be used in your workspace. You must copy and paste them, and if you need to adjust something you will already know where to do it.
 
 ``` json
-{
-    // VSCode Config
-    "editor.bracketPairColorization.enabled": true,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.guides.indentation": true,
-    "editor.tabCompletion": "on",
-    "editor.showDeprecated": true,
-    "editor.rulers": [
-        80
-    ],
-    "workbench.tree.expandMode": "singleClick",
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.tree.indent": 6,
-    "workbench.iconTheme": "material-icon-theme",
-    // Extensions Config
-    "gitlens.blame.avatars": true,
-    "gitlens.views.repositories.avatars": true,
-    "gitlens.codeLens.authors.enabled": true,
-    "todo-tree.highlights.customHighlight": {
-        "TODO": {
-            "gutterIcon": true,
-            "icon": "checklist",
-            "iconColour": "DarkOrange",
-            "type": "tag",
-            "background": "DarkOrange",
-            "foreground": "white",
-            "fontWeight": "bold"
-        },
-        "FIXME": {
-            "gutterIcon": true,
-            "icon": "tools",
-            "iconColour": "Lime",
-            "type": "tag",
-            "background": "Green",
-            "foreground": "Yellow",
-            "fontWeight": "bold"
-        }
-    },
-    "emojisense.languages": {
-        "markdown": true,
-        "plaintext": false,
-        "json": true,
-        "scminput": true
-    },
-    "formattingToggle.affects": [
-        "editor.formatOnPaste",
-        "editor.formatOnSave",
-        "editor.formatOnType"
-    ],
-    "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[xml]": {
-        "editor.defaultFormatter": "DotJoshJohnson.xml"
-    },
-    "markdownlint.config": {
-        "default": true,
-        "MD001": false,
-        "MD010": false,
-        "MD024": false,
-        "MD025": false
-    },
-}
+
 ```
 
 ## Note
@@ -98,6 +32,7 @@ This extension pack includes the following extensions:
 | markdownlint               | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/DavidAnson.vscode-markdownlint?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) [![Installs](https://flat.badgen.net/vs-marketplace/i/DavidAnson.vscode-markdownlint?color=blue)](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) [![Rating](https://flat.badgen.net/vs-marketplace/rating/DavidAnson.vscode-markdownlint?color=blue)](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)                                                                         |
 | XML Tools                  | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/DotJoshJohnson.xml?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) [![Installs](https://flat.badgen.net/vs-marketplace/i/DotJoshJohnson.xml?color=blue)](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) [![Rating](https://flat.badgen.net/vs-marketplace/rating/DotJoshJohnson.xml?color=blue)](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)                                                                                                                                                 |
 | Rainbow CSV                | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/mechatroner.rainbow-csv?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) [![Installs](https://flat.badgen.net/vs-marketplace/i/mechatroner.rainbow-csv?color=blue)](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) [![Rating](https://flat.badgen.net/vs-marketplace/rating/mechatroner.rainbow-csv?color=blue)](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)                                                                                                                   |
+| SVG Previewer              | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/vitaliymaz.vscode-svg-previewer?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer) [![Installs](https://flat.badgen.net/vs-marketplace/i/vitaliymaz.vscode-svg-previewer?color=blue)](https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer) [![Rating](https://flat.badgen.net/vs-marketplace/rating/vitaliymaz.vscode-svg-previewer?color=blue)](https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer)                                                                   |
 | Color Highlight            | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/naumovs.color-highlight?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) [![Installs](https://flat.badgen.net/vs-marketplace/i/naumovs.color-highlight?color=blue)](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) [![Rating](https://flat.badgen.net/vs-marketplace/rating/naumovs.color-highlight?color=blue)](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)                                                                                                                   |  |
 | Todo Tree                  | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Gruntfuggly.todo-tree?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) [![Installs](https://flat.badgen.net/vs-marketplace/i/Gruntfuggly.todo-tree?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Gruntfuggly.todo-tree?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                                                                                                                               |
 | Terminal in Status Bar     | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/flyfly6.terminal-in-status-bar?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=flyfly6.terminal-in-status-bar) [![Installs](https://flat.badgen.net/vs-marketplace/i/flyfly6.terminal-in-status-bar?color=blue)](https://marketplace.visualstudio.com/items?itemName=flyfly6.terminal-in-status-bar) [![Rating](https://flat.badgen.net/vs-marketplace/rating/flyfly6.terminal-in-status-bar?color=blue)](https://marketplace.visualstudio.com/items?itemName=flyfly6.terminal-in-status-bar)                                                                         |
