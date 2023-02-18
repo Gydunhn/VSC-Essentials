@@ -5,7 +5,9 @@ All notable changes to the VSC Essentials - Extension Pack for Visual Studio Cod
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased] ## [0.5.7] - 2023-02-18
+## [Unreleased]
+
+## [0.5.7] - 2023-02-18
 
 ### Added
 
@@ -14,9 +16,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Reorder the Extensions List, in order to restructure the extensions package in the future.
+* Reorder the Extensions List, in order to restructure the extensions package.
 * The Readme is reordered too, with the same purpose as before.
 * The settings in the settings.json file are updated.
+
+### Removed
+
+* Path Intellisense, By Christian Kohler. It was moved to the Extension Pack Javascript-Essentials.
+* Formatting Toggle, By tombonnike.  It was moved to the Extension Pack Javascript-Essentials too.
 
 ## ~~0.5.6 - Got lost in Space~~
 ~~To boldly go where no man has gone before ✨ 🚀 ☄️~~
@@ -140,6 +147,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[0.5.7]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.7
 [0.5.5]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.5
 [0.5.4]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.4
 [0.5.3]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.3

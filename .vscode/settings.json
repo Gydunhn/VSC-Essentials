@@ -1,4 +1,7 @@
 {
+    /**
+     * VSC Essentials Config
+     */
     "editor.tabCompletion": "on",
     "editor.showDeprecated": true,
     "editor.rulers": [
@@ -217,5 +220,5 @@
     "codesnap.roundedCorners": true,
     "codesnap.containerPadding": "2em",
     "codesnap.showWindowTitle": true,
-    "codesnap.realLineNumbers": true
+    "codesnap.realLineNumbers": true,
 }
