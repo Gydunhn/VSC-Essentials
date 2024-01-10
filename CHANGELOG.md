@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.0] - 2024-01-09
+
 ### Added
 
 * Markdown Emoji, Matt Bierner.
@@ -164,6 +166,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[0.6.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.6.0
 [0.5.9]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.9
 [0.5.8]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.8
 [0.5.7]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.7
