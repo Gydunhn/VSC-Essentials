@@ -65,7 +65,7 @@
     "Emojisense",
     "Gydunhn"
   ],
-  "version": "0.5.9",
+  "version": "0.6.0",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
@@ -92,6 +92,7 @@
     "PKief.material-icon-theme",
     "adpyke.codesnap",
     "bierner.emojisense",
+    "bierner.markdown-emoji",
     "IBM.output-colorizer"
   ]
 }
