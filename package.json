@@ -65,7 +65,7 @@
     "Emojisense",
     "Gydunhn"
   ],
-  "version": "0.5.8",
+  "version": "0.5.9",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
