@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+* Markdown Emoji, Matt Bierner.
+
 ## [0.5.9] - 2024-01-09
 
 ### Added
