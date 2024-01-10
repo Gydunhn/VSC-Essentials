@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.9] - 2024-01-09
+
+### Added
+
+* Output Colorizer, IBM.
+
 ## [0.5.8] - 2023-02-18
 
 ### Changed
@@ -154,6 +160,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[0.5.9]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.9
+[0.5.8]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.8
 [0.5.7]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.7
 [0.5.5]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.5
 [0.5.4]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.4
