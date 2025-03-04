@@ -74,25 +74,14 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "yzhang.markdown-all-in-one",
-    "DavidAnson.vscode-markdownlint",
-    "DotJoshJohnson.xml",
+    "Gydunhn.vsc-essentials-core",
     "mechatroner.rainbow-csv",
     "vitaliymaz.vscode-svg-previewer",
     "naumovs.color-highlight",
-    "Gruntfuggly.todo-tree",
-    "flyfly6.terminal-in-status-bar",
     "oderwat.indent-rainbow",
-    "aaron-bond.better-comments",
     "alefragnani.Bookmarks",
-    "mhutchie.git-graph",
-    "eamodio.gitlens",
-    "donjayamanne.githistory",
-    "codezombiech.gitignore",
-    "PKief.material-icon-theme",
     "adpyke.codesnap",
-    "bierner.emojisense",
-    "bierner.markdown-emoji",
-    "IBM.output-colorizer"
+    "Gydunhn.vsc-essentials-themes-core",
+    "Gydunhn.vsc-essentials-material-themes"
   ]
 }

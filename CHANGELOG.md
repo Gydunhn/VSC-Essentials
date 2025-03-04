@@ -7,6 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-03-04
+
+***Version 1.0.0 of this extension package marks a significant milestone, as it introduces a more organized restructuring of extensions. This reordering is designed to better meet the diverse needs of our development team, ensuring that each component is strategically placed to enhance workflow and productivity. By addressing the specific requirements of developers working on our projects, this update aims to provide a more cohesive and efficient development environment.***
+
+### Added
+
+* VSC-Essentials-Core, By Gydunhn.
+* VSC-Essentials-Themes-Core, By Gydunhn.
+* VSC-Essentials-Material-Themes, By Gydunhn.
+
+### Removed
+
+* The following list of extensions has been removed from the current package to be included in the Core version. This change is primarily for organizational purposes and ensures a more structured approach to managing essential tools. Rest assured, none of these extensions will be lost, as the Core version is integrated within this package. This reorganization aims to provide a streamlined experience, maintaining accessibility to all necessary extensions while enhancing overall usability.
+  * Markdown All in One, By Yu Zhang.
+  * markdownlint, By David Anson.
+  * :emojisense:, By Matt Bierner.
+  * Markdown Emoji, By Matt Bierner.
+  * XML Tools, By Josh Johnson.
+  * Todo Tree, By Gruntfuggly.
+  * Git Graph, By mhutchie.
+  * GitLens — Git supercharged, By GitKraken.
+  * Git History, By Don Jayamanne.
+  * gitignore, By CodeZombie.
+  * Terminal in Status Bar, By flyfly6.
+  * Better Comments, By Aaron Bond.
+
+* Similar to the previous list, the following extensions have been moved to other packages that are also part of the current suite. This reorganization is aimed at creating a more modular structure, allowing for better management and scalability. You can rest assured that none of these extensions will be lost, as they remain accessible within the broader package ecosystem. This approach ensures that all necessary tools are available while maintaining a clean and efficient extension setup.
+  * Material Icon Theme, by Philipp Kief.
+  * Output Colorizer, by IBM.
+
 ## [0.6.0] - 2024-01-09
 
 ### Added
@@ -166,6 +196,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[1.0.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.0
 [0.6.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.6.0
 [0.5.9]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.9
 [0.5.8]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.8
