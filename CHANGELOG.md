@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-03-04
+
+### Added
+
+* Console Ninja, By Wallaby.js.
+* Error Lens, By Alexander.
+* Image preview, By Kiss Tamás.
+
 ## [1.0.0] - 2025-03-04
 
 ***Version 1.0.0 of this extension package marks a significant milestone, as it introduces a more organized restructuring of extensions. This reordering is designed to better meet the diverse needs of our development team, ensuring that each component is strategically placed to enhance workflow and productivity. By addressing the specific requirements of developers working on our projects, this update aims to provide a more cohesive and efficient development environment.***
@@ -196,6 +204,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[1.0.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.1
 [1.0.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.0
 [0.6.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.6.0
 [0.5.9]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.5.9
