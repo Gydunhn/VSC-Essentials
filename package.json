@@ -65,7 +65,7 @@
     "Emojisense",
     "Gydunhn"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
@@ -75,7 +75,6 @@
   ],
   "extensionPack": [
     "Gydunhn.vsc-essentials-core",
-    "WallabyJs.console-ninja",
     "usernamehw.errorlens",
     "kisstkondoros.vscode-gutter-preview",
     "mechatroner.rainbow-csv",
