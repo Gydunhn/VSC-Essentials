@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2025-03-15
+
 ### Removed
 
 * Console Ninja, By Wallaby.js. Because it caused a serious problem with the system console on three different macOS computers in less than a week, altering global variables, which disrupted the development environment.
@@ -208,6 +210,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[1.0.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.2
 [1.0.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.1
 [1.0.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.0
 [0.6.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/0.6.0
