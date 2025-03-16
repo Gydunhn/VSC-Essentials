@@ -75,7 +75,6 @@
   ],
   "extensionPack": [
     "Gydunhn.vsc-essentials-core",
-    "WallabyJs.console-ninja",
     "usernamehw.errorlens",
     "kisstkondoros.vscode-gutter-preview",
     "mechatroner.rainbow-csv",

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Removed
+
+* Console Ninja, By Wallaby.js. Because it caused a serious problem with the system console on three different macOS computers in less than a week, altering global variables, which disrupted the development environment.
+
 ## [1.0.1] - 2025-03-04
 
 ### Added

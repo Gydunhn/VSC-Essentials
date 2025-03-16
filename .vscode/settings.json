@@ -2,16 +2,30 @@
   /**
      * VSC Essentials Config
      */
+  "extensions.ignoreRecommendations": true,
+  "editor.fontLigatures": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+  "editor.indentSize": 2,
   "editor.tabCompletion": "on",
   "editor.showDeprecated": true,
+  "editor.autoIndent": "full",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
   "editor.rulers": [
-    80
+    140
   ],
-  "editor.guides.bracketPairs": "active",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "workbench.tree.expandMode": "singleClick",
-  "workbench.tree.renderIndentGuides": "always",
-  "workbench.tree.indent": 6,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 145,
   "editor.formatOnSave": true,
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -155,7 +169,6 @@
       "italic": false
     }
   ],
-  "editor.stickyScroll.enabled": true,
   "svg.preview.autoOpen": false,
   "emojisense.languages": {
     "plaintext": false,
