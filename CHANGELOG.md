@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.1] - 2025-05-07
+
+### Changed
+
+* Actualizado el archivo README.md con la sección **settings.json** completamente renovada
+
 ## [2.1.0] - 2025-05-07
 
 ### Changed
@@ -274,6 +280,7 @@ This major restructuring provides a more intuitive organization of extensions, m
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[2.1.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.1.1
 [2.1.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.1.0
 [2.0.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.0.0
 [1.0.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.2
