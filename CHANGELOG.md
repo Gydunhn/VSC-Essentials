@@ -7,6 +7,64 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2025-05-07
+
+***Version 2.0.0 of this extension package marks a significant milestone, introducing a comprehensive reorganization of extensions to better align with our updated development strategy. This major update restructures the entire package to provide clearer organization of tools by function and purpose, enabling more efficient workflows across different project types.***
+
+### Added
+
+* Paste JSON as Code (quicktype) - A powerful tool that allows developers to convert JSON data into strongly typed code in multiple programming languages, including TypeScript, C#, Java, Swift, and many others. This addition enhances productivity when working with APIs and data structures.
+
+### Changed
+
+* Complete reorganization of the extension pack structure to create a more logical and function-based grouping:
+  * Moved all language-agnostic core extensions to the VSC-Essentials-Core package
+  * Grouped remaining extensions by functionality categories:
+    * Core Package
+    * Version Control tools
+    * Visualization and Preview tools
+    * File Support tools
+    * Others
+
+### Removed
+
+* The following extensions have been moved to VSC-Essentials-Core package to create a cleaner, more focused base package of truly essential extensions:
+  * Better Comments, by Aaron Bond
+  * Todo Tree, by Gruntfuggly
+  * Terminal in Status Bar, by flyfly6
+  * Bookmarks, by Alessandro Fragnani
+  * indent-rainbow, by oderwat
+  * Error Lens, by usernamehw
+  * Output Colorizer, by IBM
+  * All Markdown related extensions - Moved to Core as documentation is essential for all projects:
+    * Markdown All in One, by Yu Zhang
+    * markdownlint, by David Anson
+    * :emojisense:, by Matt Bierner
+    * Markdown Emoji, by Matt Bierner
+    * Markdown Checkboxes, by Matt Bierner
+
+### Restructured
+
+* Version Control tools are now grouped together in the main package:
+  * Git Graph, by mhutchie
+  * GitLens — Git supercharged, by GitKraken
+  * Git History, by Don Jayamanne
+  * gitignore, by CodeZombie
+* Visualization and Preview tools grouped together:
+  * Image preview, by Kiss Tamás
+  * SVG Previewer, by Vitalii Mazurenko
+  * CodeSnap, by adpyke
+* File Support tools grouped for better organization:
+  * XML Tools, by Josh Johnson
+  * Rainbow CSV, by mechatroner
+  * Paste JSON as Code, by quicktype
+* Others:
+  * Color Highlight, by naumovs
+  * VSC-Essentials-Themes-Core, by Gydunhn
+  * VSC-Essentials-Material-Themes, by Gydunhn
+
+This major restructuring provides a more intuitive organization of extensions, making it easier for developers to understand what each package provides and ensuring better performance by only loading the extensions relevant to specific workflows.
+
 ## [1.0.2] - 2025-03-15
 
 ### Removed
@@ -210,6 +268,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[2.0.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.0.0
 [1.0.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.2
 [1.0.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.1
 [1.0.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.0
