@@ -1,7 +1,8 @@
 {
   /**
-     * VSC Essentials Config
-     */
+   * VSC Essentials Config
+   */
+  // Editor Native Settings
   "extensions.ignoreRecommendations": true,
   "editor.fontLigatures": true,
   "editor.stickyScroll.enabled": true,
@@ -16,17 +17,12 @@
   "editor.tabCompletion": "on",
   "editor.showDeprecated": true,
   "editor.autoIndent": "full",
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit",
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll": "explicit"
-  },
   "editor.rulers": [
     140
   ],
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 145,
-  "editor.formatOnSave": true,
+  // File Type Settings
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
@@ -39,6 +35,7 @@
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
+  // Markdown Related Settings
   "markdownlint.config": {
     "default": true,
     "MD001": false,
@@ -47,6 +44,13 @@
     "MD024": false,
     "MD025": false
   },
+  "emojisense.languages": {
+    "plaintext": false,
+    "markdown": true,
+    "json": true,
+    "scminput": true
+  },
+  // Todo Tree Settings
   "todo-tree.tree.showCountsInTree": true,
   "todo-tree.general.statusBar": "top three",
   "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
@@ -85,6 +89,7 @@
       "fontWeight": "bold"
     }
   },
+  // Better Comments Settings
   "better-comments.multilineComments": true,
   "better-comments.tags": [
     {
@@ -169,20 +174,26 @@
       "italic": false
     }
   ],
-  "svg.preview.autoOpen": false,
-  "emojisense.languages": {
-    "plaintext": false,
-    "markdown": true,
-    "json": true,
-    "scminput": true
-  },
+  // Terminal in Status Bar Settings
   "terminal-in-status-bar.statusBarAlignment": "right",
   "terminal-in-status-bar.statusBarPriority": 10000,
+  // indent-rainbow Settings
   "indentRainbow.ignoreErrorLanguages": [
     "haskell"
   ],
+  // Bookmarks Settings
   "bookmarks.saveBookmarksInProject": false,
   "bookmarks.showCommandsInContextMenu": true,
+  // Error Lens Settings
+  "errorLens.enabled": true,
+  "errorLens.enabledInMergeConflict": true,
+  "errorLens.fontStyleItalic": true,
+  // Output Colorizer Settings
+  "outputColorizer.colorizeErrors": true,
+  "outputColorizer.colorizeWarnings": true,
+  // SVG Previewer Settings
+  "svg.preview.autoOpen": false,
+  // Git Graph Settings
   "git-graph.commitDetailsView.location": "Docked to Bottom",
   "git-graph.contextMenuActionsVisibility": {
     "remoteBranch": {
@@ -223,14 +234,21 @@
       "revert": false,
     }
   },
+  // GitLens Settings
   "gitlens.statusBar.enabled": true,
   "gitlens.statusBar.command": "gitlens.openCommitOnRemote",
   "gitlens.blame.avatars": true,
   "gitlens.hovers.avatars": true,
   "gitlens.hovers.avatarSize": 64,
   "gitlens.hovers.changesDiff": "hunk",
+  // Easy CodeSnap Settings
+  // Nota: Estas configuraciones son compatibles tanto con CodeSnap como con Easy CodeSnap
   "codesnap.roundedCorners": true,
   "codesnap.containerPadding": "2em",
   "codesnap.showWindowTitle": true,
   "codesnap.realLineNumbers": true,
+  // Rainbow CSV Settings
+  "rainbow-csv.comment-prefix": "#",
+  // Color Highlight Settings
+  "colorHighlight.markerType": "background"
 }
