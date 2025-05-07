@@ -16,258 +16,258 @@ It is strongly recommended that these settings be used in your workspace. You mu
 
 ``` json
 {
-  /**
-   * VSC Essentials Config
-   */
-  // Editor Native Settings
-  "extensions.ignoreRecommendations": true,
-  "editor.fontLigatures": true,
-  "editor.stickyScroll.enabled": true,
-  "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.guides.highlightActiveBracketPair": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.guides.indentation": true,
-  "editor.indentSize": 2,
-  "editor.tabCompletion": "on",
-  "editor.showDeprecated": true,
-  "editor.autoIndent": "full",
-  "editor.rulers": [
-    140
-  ],
-  "editor.wordWrap": "bounded",
-  "editor.wordWrapColumn": 145,
-  // File Type Settings
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "DotJoshJohnson.xml"
-  },
-  // Markdown Related Settings
-  "markdownlint.config": {
-    "default": true,
-    "MD001": false,
-    "MD010": false,
-    "MD022": false,
-    "MD024": false,
-    "MD025": false
-  },
-  "emojisense.languages": {
-    "plaintext": false,
-    "markdown": true,
-    "json": true,
-    "scminput": true
-  },
-  // Todo Tree Settings
-  "todo-tree.tree.showCountsInTree": true,
-  "todo-tree.general.statusBar": "top three",
-  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
-  "todo-tree.general.tags": [
-    "TODO",
-    "FIXME",
-    "FIXIT",
-    "FIX",
-    "BUG"
-  ],
-  "todo-tree.general.tagGroups": {
-    "FIXME": [
-      "FIXME",
-      "FIXIT",
-      "FIX",
-      "BUG",
-    ]
-  },
-  "todo-tree.highlights.customHighlight": {
-    "TODO": {
-      "gutterIcon": true,
-      "icon": "tasklist",
-      "iconColour": "#FF8C00",
-      "type": "tag",
-      "background": "#CF7200",
-      "foreground": "#FFFFFF",
-      "fontWeight": "bold"
+    /**
+    * VSC Essentials Config
+    */
+    // Editor Native Settings
+    "extensions.ignoreRecommendations": true,
+    "editor.fontLigatures": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.indentation": true,
+    "editor.indentSize": 2,
+    "editor.tabCompletion": "on",
+    "editor.showDeprecated": true,
+    "editor.autoIndent": "full",
+    "editor.rulers": [
+        140
+    ],
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 145,
+    // File Type Settings
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
-    "FIXME": {
-      "gutterIcon": true,
-      "icon": "tools",
-      "iconColour": "#00FF00",
-      "type": "tag",
-      "background": "#008000",
-      "foreground": "#FFFF00",
-      "fontWeight": "bold"
-    }
-  },
-  // Better Comments Settings
-  "better-comments.multilineComments": true,
-  "better-comments.tags": [
-    {
-      "tag": "!",
-      "color": "#FF2D00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": true,
-      "italic": false
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
-    {
-      "tag": "?",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
-    {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
     },
-    {
-      "tag": "todo",
-      "color": "#FF8C00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    // Markdown Related Settings
+    "markdownlint.config": {
+        "default": true,
+        "MD001": false,
+        "MD010": false,
+        "MD022": false,
+        "MD024": false,
+        "MD025": false
     },
-    {
-      "tag": "fixme",
-      "color": "#008000",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    "emojisense.languages": {
+        "plaintext": false,
+        "markdown": true,
+        "json": true,
+        "scminput": true
     },
-    {
-      "tag": "fixit",
-      "color": "#008000",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    // Todo Tree Settings
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.general.statusBar": "top three",
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "FIXIT",
+        "FIX",
+        "BUG"
+    ],
+    "todo-tree.general.tagGroups": {
+        "FIXME": [
+        "FIXME",
+        "FIXIT",
+        "FIX",
+        "BUG",
+        ]
     },
-    {
-      "tag": "fix",
-      "color": "#008000",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+        "gutterIcon": true,
+        "icon": "tasklist",
+        "iconColour": "#FF8C00",
+        "type": "tag",
+        "background": "#CF7200",
+        "foreground": "#FFFFFF",
+        "fontWeight": "bold"
+        },
+        "FIXME": {
+        "gutterIcon": true,
+        "icon": "tools",
+        "iconColour": "#00FF00",
+        "type": "tag",
+        "background": "#008000",
+        "foreground": "#FFFF00",
+        "fontWeight": "bold"
+        }
     },
-    {
-      "tag": "bug",
-      "color": "#008000",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    // Better Comments Settings
+    "better-comments.multilineComments": true,
+    "better-comments.tags": [
+        {
+        "tag": "!",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": true,
+        "italic": false
+        },
+        {
+        "tag": "?",
+        "color": "#3498DB",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+        },
+        {
+        "tag": "//",
+        "color": "#474747",
+        "strikethrough": true,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+        },
+        {
+        "tag": "todo",
+        "color": "#FF8C00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+        },
+        {
+        "tag": "fixme",
+        "color": "#008000",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+        },
+        {
+        "tag": "fixit",
+        "color": "#008000",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+        },
+        {
+        "tag": "fix",
+        "color": "#008000",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+        },
+        {
+        "tag": "bug",
+        "color": "#008000",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+        },
+        {
+        "tag": "*",
+        "color": "#98C379",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": true,
+        "italic": false
+        }
+    ],
+    // Terminal in Status Bar Settings
+    "terminal-in-status-bar.statusBarAlignment": "right",
+    "terminal-in-status-bar.statusBarPriority": 10000,
+    // indent-rainbow Settings
+    "indentRainbow.ignoreErrorLanguages": [
+        "haskell"
+    ],
+    // Bookmarks Settings
+    "bookmarks.saveBookmarksInProject": false,
+    "bookmarks.showCommandsInContextMenu": true,
+    // Error Lens Settings
+    "errorLens.enabled": true,
+    "errorLens.enabledInMergeConflict": true,
+    "errorLens.fontStyleItalic": true,
+    // Output Colorizer Settings
+    "outputColorizer.colorizeErrors": true,
+    "outputColorizer.colorizeWarnings": true,
+    // SVG Previewer Settings
+    "svg.preview.autoOpen": false,
+    // Git Graph Settings
+    "git-graph.commitDetailsView.location": "Docked to Bottom",
+    "git-graph.contextMenuActionsVisibility": {
+        "remoteBranch": {
+        "checkout": false,
+        "cherrypick": false,
+        "createBranch": false,
+        "createPullRequest": false,
+        "delete": false,
+        "drop": false,
+        "merge": false,
+        "pull": false,
+        "rebase": false,
+        "reset": false,
+        "revert": false,
+        },
+        "branch": {
+        "checkout": false,
+        "cherrypick": false,
+        "createBranch": false,
+        "createPullRequest": false,
+        "delete": false,
+        "drop": false,
+        "merge": false,
+        "push": false,
+        "rename": false,
+        "rebase": false,
+        "reset": false,
+        "revert": false,
+        },
+        "commit": {
+        "checkout": false,
+        "cherrypick": false,
+        "createBranch": false,
+        "drop": false,
+        "merge": false,
+        "rebase": false,
+        "reset": false,
+        "revert": false,
+        }
     },
-    {
-      "tag": "*",
-      "color": "#98C379",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": true,
-      "italic": false
-    }
-  ],
-  // Terminal in Status Bar Settings
-  "terminal-in-status-bar.statusBarAlignment": "right",
-  "terminal-in-status-bar.statusBarPriority": 10000,
-  // indent-rainbow Settings
-  "indentRainbow.ignoreErrorLanguages": [
-    "haskell"
-  ],
-  // Bookmarks Settings
-  "bookmarks.saveBookmarksInProject": false,
-  "bookmarks.showCommandsInContextMenu": true,
-  // Error Lens Settings
-  "errorLens.enabled": true,
-  "errorLens.enabledInMergeConflict": true,
-  "errorLens.fontStyleItalic": true,
-  // Output Colorizer Settings
-  "outputColorizer.colorizeErrors": true,
-  "outputColorizer.colorizeWarnings": true,
-  // SVG Previewer Settings
-  "svg.preview.autoOpen": false,
-  // Git Graph Settings
-  "git-graph.commitDetailsView.location": "Docked to Bottom",
-  "git-graph.contextMenuActionsVisibility": {
-    "remoteBranch": {
-      "checkout": false,
-      "cherrypick": false,
-      "createBranch": false,
-      "createPullRequest": false,
-      "delete": false,
-      "drop": false,
-      "merge": false,
-      "pull": false,
-      "rebase": false,
-      "reset": false,
-      "revert": false,
-    },
-    "branch": {
-      "checkout": false,
-      "cherrypick": false,
-      "createBranch": false,
-      "createPullRequest": false,
-      "delete": false,
-      "drop": false,
-      "merge": false,
-      "push": false,
-      "rename": false,
-      "rebase": false,
-      "reset": false,
-      "revert": false,
-    },
-    "commit": {
-      "checkout": false,
-      "cherrypick": false,
-      "createBranch": false,
-      "drop": false,
-      "merge": false,
-      "rebase": false,
-      "reset": false,
-      "revert": false,
-    }
-  },
-  // GitLens Settings
-  "gitlens.statusBar.enabled": true,
-  "gitlens.statusBar.command": "gitlens.openCommitOnRemote",
-  "gitlens.blame.avatars": true,
-  "gitlens.hovers.avatars": true,
-  "gitlens.hovers.avatarSize": 64,
-  "gitlens.hovers.changesDiff": "hunk",
-  // Easy CodeSnap Settings
-  // Nota: Estas configuraciones son compatibles tanto con CodeSnap como con Easy CodeSnap
-  "codesnap.roundedCorners": true,
-  "codesnap.containerPadding": "2em",
-  "codesnap.showWindowTitle": true,
-  "codesnap.realLineNumbers": true,
-  // Rainbow CSV Settings
-  "rainbow-csv.comment-prefix": "#",
-  // Color Highlight Settings
-  "colorHighlight.markerType": "background"
+    // GitLens Settings
+    "gitlens.statusBar.enabled": true,
+    "gitlens.statusBar.command": "gitlens.openCommitOnRemote",
+    "gitlens.blame.avatars": true,
+    "gitlens.hovers.avatars": true,
+    "gitlens.hovers.avatarSize": 64,
+    "gitlens.hovers.changesDiff": "hunk",
+    // Easy CodeSnap Settings
+    // Note: These settings are compatible with both CodeSnap and Easy CodeSnap.
+    "codesnap.roundedCorners": true,
+    "codesnap.containerPadding": "2em",
+    "codesnap.showWindowTitle": true,
+    "codesnap.realLineNumbers": true,
+    // Rainbow CSV Settings
+    "rainbow-csv.comment-prefix": "#",
+    // Color Highlight Settings
+    "colorHighlight.markerType": "background"
 }
 ```
 
