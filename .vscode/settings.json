@@ -242,7 +242,7 @@
   "gitlens.hovers.avatarSize": 64,
   "gitlens.hovers.changesDiff": "hunk",
   // Easy CodeSnap Settings
-  // Nota: Estas configuraciones son compatibles tanto con CodeSnap como con Easy CodeSnap
+  // Note: These settings are compatible with both CodeSnap and Easy CodeSnap.
   "codesnap.roundedCorners": true,
   "codesnap.containerPadding": "2em",
   "codesnap.showWindowTitle": true,
