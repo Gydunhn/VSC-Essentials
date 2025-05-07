@@ -28,6 +28,7 @@
     "Color Highlight",
     "XML",
     "CodeSnap",
+    "Easy CodeSnap",
     "Git Graph",
     "CSV",
     "Rainbow",
@@ -38,7 +39,7 @@
     "Paste JSON as Code",
     "Gydunhn"
   ],
-  "version": "2.0.0",
+  "version": "2.1.0",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
@@ -50,7 +51,7 @@
     "Gydunhn.vsc-essentials-core",
     "kisstkondoros.vscode-gutter-preview",
     "vitaliymaz.vscode-svg-previewer",
-    "adpyke.codesnap",
+    "ArthurLobo.easy-codesnap",
     "mhutchie.git-graph",
     "eamodio.gitlens",
     "donjayamanne.githistory",

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2025-05-07
+
+### Changed
+
+* Replaced CodeSnap (adpyke.codesnap) with Easy CodeSnap (ArthurLobo.easy-codesnap) - The original CodeSnap extension is no longer actively maintained, while Easy CodeSnap is being actively developed with new features and fixes. Easy CodeSnap offers a simple migration path via the "easy-codesnap.importSettings" command to import all existing CodeSnap settings.
+
 ## [2.0.0] - 2025-05-07
 
 ***Version 2.0.0 of this extension package marks a significant milestone, introducing a comprehensive reorganization of extensions to better align with our updated development strategy. This major update restructures the entire package to provide clearer organization of tools by function and purpose, enabling more efficient workflows across different project types.***
@@ -268,6 +274,7 @@ This major restructuring provides a more intuitive organization of extensions, m
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[2.1.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.1.0
 [2.0.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.0.0
 [1.0.2]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.2
 [1.0.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/1.0.1
