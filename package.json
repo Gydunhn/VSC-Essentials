@@ -39,7 +39,7 @@
     "Paste JSON as Code",
     "Gydunhn"
   ],
-  "version": "2.1.1",
+  "version": "2.2.0",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
@@ -60,6 +60,7 @@
     "mechatroner.rainbow-csv",
     "quicktype.quicktype",
     "naumovs.color-highlight",
+    "johnpapa.vscode-peacock",
     "Gydunhn.vsc-essentials-themes-core",
     "Gydunhn.vsc-essentials-material-themes"
   ]
