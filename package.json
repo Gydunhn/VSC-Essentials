@@ -51,7 +51,7 @@
     "Paste JSON as Code",
     "Gydunhn"
   ],
-  "version": "2.2.0",
+  "version": "2.3.0",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
