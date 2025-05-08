@@ -7,11 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.0] - 2025-05-07
+
+### Added
+
+* Code Runner, By Jun Han.
+* Json Editor, By Nick DeMayo.
+
 ## [2.2.0] - 2025-05-07
 
 ### Added
 
-* Peacock (johnpapa.vscode-peacock) - Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+* Peacock, By John Papa - Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
 
 ## [2.1.1] - 2025-05-07
 
@@ -286,6 +293,7 @@ This major restructuring provides a more intuitive organization of extensions, m
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/VSC-Essentials/tree/develop
+[2.2.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.2.0
 [2.1.1]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.1.1
 [2.1.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.1.0
 [2.0.0]: https://github.com/Gydunhn/VSC-Essentials/releases/tag/2.0.0
