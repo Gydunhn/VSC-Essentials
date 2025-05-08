@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2025-05-07
+
+### Added
+
+* Peacock (johnpapa.vscode-peacock) - Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+
 ## [2.1.1] - 2025-05-07
 
 ### Changed
