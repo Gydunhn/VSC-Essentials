@@ -259,17 +259,25 @@ It is strongly recommended that these settings be used in your workspace. You mu
     "gitlens.hovers.avatarSize": 64,
     "gitlens.hovers.changesDiff": "hunk",
     // Easy CodeSnap Settings
-    // Note: These settings are compatible with both CodeSnap and Easy CodeSnap.
-    "codesnap.roundedCorners": true,
-    "codesnap.containerPadding": "2em",
-    "codesnap.showWindowTitle": true,
-    "codesnap.realLineNumbers": true,
+    // Note: If you was using CodeSnap, see how to migrate to Easy CodeSnap.
+    "easy-codesnap.roundedCorners": true,
+    "easy-codesnap.containerPadding": "2em",
+    "easy-codesnap.showWindowTitle": true,
+    "easy-codesnap.realLineNumbers": true,
     // Rainbow CSV Settings
     "rainbow-csv.comment-prefix": "#",
     // Color Highlight Settings
     "colorHighlight.markerType": "background"
 }
 ```
+
+## Migrating to Easy CodeSnap
+
+If you was using CodeSnap extension you can import all your CodeSnap config to Easy CodeSnap.
+
+You just need to open VSCode commands (`Ctrl` + `Shift` + `P`) and execute this command: `easy-codesnap.importSettings`
+
+This command will copy and keep your CodeSnap settings. So you can use both extensions with different configs.
 
 ## Note
 
